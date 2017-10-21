@@ -1,0 +1,17 @@
+.button{
+    background-color:grey;
+    text-align:center;
+    cursor:pointer;
+    color:black;
+    padding:6px;
+    width:150px;
+}
+.thisPageButton{
+    background-color:lightgray;
+    text-align:center;
+    cursor:pointer;
+    color:black;
+    padding:6px;
+    width:150px;
+
+}
