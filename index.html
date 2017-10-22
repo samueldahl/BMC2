@@ -2,31 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="bootstrap-4.0.0-beta.2-dist/css/bootstrap.css">
-    <link rel="stylesheet" href="bootstrap-4.0.0-beta.2-dist/css/bootstrap-grid.css">
-    <link rel="stylesheet" href="bootstrap-4.0.0-beta.2-dist/css/bootstrap-reboot.css">
-    <script src="bootstrap-4.0.0-beta.2-dist/js/bootstrap.bundle.js"></script>
-    <script src="bootstrap-4.0.0-beta.2-dist/js/bootstrap.js"></script>
+    <title>Building Moore Construction</title>
+
+    <!-- Canvas said to only reference two stylesheets, but bootstrap itself seemed to have 2. I do not understand the purpose of bootstrap-theme.css, but I am concerned about possibly missing some functionality if I do not reference it. 3 stylesheets are referenced herein. -->
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap-theme.css">
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
 </head>
 <body>
     <div class="container">
         <div class="row">  <!-- This is the head bar -->
-            <div class="col-lg-2 col-lg-offset-1 col-sm-12" style="background-color:lavender;">
-                <p class="button">Home</p>
-            </div>
-            <div class="col-lg-2 col-lg-offset-1 col-sm-6" style="background-color:silver;">
-                <p class="button">Contact</p>
-            </div>
-            <div class="col-lg-2 col-lg-offset-1 col-sm-6" style="background-color:lavender;">
-                <p class="button">Commercial builds</p>
-            </div>
-            <div class="col-lg-2 col-lg-offset-1 col-sm-6" style="background-color:silver;">
-                <p class="button">Residential builds</p>
-            </div>
-            <div class="col-lg-2 col-lg-offset-1 col-sm-6" style="background-color:lavender;">
-                <p class="button">Testimonials</p>
-            </div>
+            <a href="index.html">
+                <div class="col-lg-2 col-lg-offset-1 col-sm-12 col-xs-12 thisPageButton">
+                    <span>Home</span>
+                </div>
+            </a>
+            <a href="contact">
+                <div class="col-lg-2 col-sm-6 col-xs-12 button">
+                    <span>Contact</span>
+                </div>
+            </a>
+            <a href="commercialBuilds">
+                <div class="col-lg-2 col-sm-6 col-xs-12 button">
+                    <span>Commercial Builds</span>
+                </div>
+            </a>
+            <a href="residentialBuilds">
+                <div class="col-lg-2 col-sm-6 col-xs-12 button">
+                    <span>Residential Builds</span>
+                </div>
+            </a>
+            <a href="testimonials">
+                <div class="col-lg-2 col-sm-6 col-xs-12 button">
+                    <span>Testimonials</span>
+                </div>
+            </a>
+
+
+
         </div>
         <div class="row">
 
